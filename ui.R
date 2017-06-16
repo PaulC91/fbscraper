@@ -70,7 +70,7 @@ fluidPage(
                       those tracks you and your mates have spent hours curating. There's also the option of downloading 
                       all the data to an excel file so you can have an archive stored locally."),
                tags$p("Although I'm suggesting this be used for music purposes, you can use it to scrape any page/group where
-                      there are links present. So feel to scrape that funny cat videos group you're the admin of."),
+                      there are links present. So feel free to scrape that funny cat videos group you're the admin of."),
                tags$p("Finally, if you're into #rstats and want to dig a bit deeper into the facebook scraping world
                       then definitely check out the great", tags$a("Rfacebook", href="https://github.com/pablobarbera/Rfacebook",
                                                                    target="_blank"), "package, which this app utilises - thank you Pablo Barbera!"),
