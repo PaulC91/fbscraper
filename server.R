@@ -65,6 +65,8 @@ function(input, output, session) {
                             Comments = comments_count, link, Link) %>%
                      arrange(desc(Date))
                    
+                   final$Track <- sapply(final$Track, function(row) iconv(row, "latin1", "ASCII", sub=""))
+                   
                    return(final)
                  })
     
